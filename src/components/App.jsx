@@ -5,7 +5,7 @@ import { MainContainer } from './App.styled';
 import { nanoid } from 'nanoid';
 import Filter from 'components/Filter/Filter';
 import ContactList from 'components/ContactList/ContactList';
-import { useLocalStorage } from 'components/Hooks/useLocalStorage';
+import { useLocalStorage } from 'Hooks/useLocalStorage';
 
 const APP_STORAGE = 'phonebook';
 
